@@ -1,0 +1,24 @@
+<view class="edit">
+  <view class="edit-editor" id="edit-editor">
+    <canvas class="editor-canvas" 
+    catchtouchstart="onTouchStart"
+    catchtouchmove="onTouchMove"
+    catchtouchend="onTouchEnd"
+    canvas-id="editor"></canvas>
+  </view>
+  <!-- <view class="edit-bar"></view> -->
+  <swiper 
+  class="edit-bar"
+  circular="true"
+  previous-margin="10rpx"
+  next-margin="10rpx"
+  display-multiple-items="5"
+  >
+    <swiper-item wx:key="img" wx:for="{{images}}">
+      <view class="material-item" bindtap="onTapImgMaterial" data-index="{{index}}">
+        <image class="material-item-img" mode="aspectFit" src="{{item.img}}"></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <button class="edit-btn-save" type="primary" bindtap="savePic">保存</button>
+</view>

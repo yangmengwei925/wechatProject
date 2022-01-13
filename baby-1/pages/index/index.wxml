@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="img" mode="widthFix" src="../../img/bg.png"></image>
+  <view>hello, {{name}}</view>
+  <button bindtap="onClick">点击更新</button>
+  <button bindtap="onJump">点击跳转</button>
+</view>

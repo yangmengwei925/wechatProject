@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<image class="img" src="../../img/bg.png" mode="widthFix" />
+<button class="btn" bindtap="onUpload">上传图片</button>

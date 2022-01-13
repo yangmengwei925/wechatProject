@@ -1,0 +1,76 @@
+<view class="body">
+  <view class="head">头部</view>
+  <view class="content">
+    <scroll-view scroll-y="true" class="scroll-list">
+    <view class="list-view">
+      <view class="card">
+        <view>
+          <image src="../../img/cover.jpg" mode="widthFix"></image>
+        </view>
+        <view>小程序常用布局</view>
+      </view>
+      <view class="card">
+        <view>
+          <image src="../../img/cover.jpg" mode="widthFix"></image>
+        </view>
+        <view>小程序常用布局</view>
+      </view>
+      <view class="card">
+        <view>
+          <image src="../../img/cover.jpg" mode="widthFix"></image>
+        </view>
+        <view>小程序常用布局</view>
+      </view>
+      <view class="card">
+        <view>
+          <image src="../../img/cover.jpg" mode="widthFix"></image>
+        </view>
+        <view>小程序常用布局</view>
+      </view>
+      <view class="card">
+        <view>
+          <image src="../../img/cover.jpg" mode="widthFix"></image>
+        </view>
+        <view>小程序常用布局</view>
+      </view>
+      <view class="card">
+        <view>
+          <image src="../../img/cover.jpg" mode="widthFix"></image>
+        </view>
+        <view>小程序常用布局</view>
+      </view>
+      <view class="card">
+        <view>
+          <image src="../../img/cover.jpg" mode="widthFix"></image>
+        </view>
+        <view>小程序常用布局</view>
+      </view>
+      <view class="card">
+        <view>
+          <image src="../../img/cover.jpg" mode="widthFix"></image>
+        </view>
+        <view>小程序常用布局</view>
+      </view>
+    </view>
+    </scroll-view>
+  </view>
+
+  <view class="tools">
+    <view class="tools-item">
+      <image src="../../img/icon/index-active.png" mode="widthFix"></image>
+      <view>首页</view>
+    </view>
+    <view class="tools-item">
+      <image src="../../img/icon/sort.png" mode="widthFix"></image>
+      <view>分类</view>
+    </view>
+    <view class="tools-item">
+      <image src="../../img/icon/cal.png" mode="widthFix"></image>
+      <view>课表</view>
+    </view>
+    <view class="tools-item">
+      <image src="../../img/icon/head.png" mode="widthFix"></image>
+      <view>我的</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,2 @@
+<!--pages/second/second.wxml-->
+<text>second page, hello {{name}}</text>

@@ -1,0 +1,146 @@
+<!-- flex-direction 决定主轴的方向 
+row: 从左到右
+row-reverse： 从右到左
+column: 交叉轴方向 从上到下
+column-reverse: 从下到上
+-->
+<!-- <view class="box box-1">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+</view> -->
+<!-- flex-wrap 换行
+nowrap: 不换行
+wrap: 换行
+wrap-reverse: 反向换行
+-->
+<!-- <view class="box box-2">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+  <view class="box-item">5</view>
+  <view class="box-item">6</view>
+  <view class="box-item">7</view>
+</view> -->
+<!-- flex-flow 是上面2个的集合
+第一个值是direction
+第二个值是wrap
+-->
+<!-- <view class="box box-3">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+  <view class="box-item">5</view>
+  <view class="box-item">6</view>
+  <view class="box-item">7</view>
+</view> -->
+
+<!-- justify-content 定义在主轴上的对齐方式
+flex-start: 左对齐
+flex-end: 右对齐
+center: 居中对齐
+space-between: 两边对齐，中间平均分隔
+space-around: 每个元素两边完全相等
+-->
+<!-- <view class="box box-4">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+</view> -->
+
+<!-- align-items 定义在交叉轴上的对齐方式
+flex-start: 以交叉轴起点对齐
+flex-end: 以交叉轴终点对齐
+center: 以交叉轴中间对齐
+-->
+<!-- <view class="box box-5">
+  <view class="box-item">1</view>
+  <view class="box-item box-tall">2</view>
+  <view class="box-item">3</view>
+</view> -->
+<!-- baseline: 以基线方式对齐 -->
+<!-- <view class="box box-6">
+  <view class="box-item">1</view>
+  <view class="box-item box-tall item-tall">2</view>
+  <view class="box-item">3</view>
+</view> -->
+<!-- stretch(默认值): 若高度为auto则占满整个容器高度 -->
+<!-- <view class="box box-7">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+</view> -->
+
+<!-- align-content 定义交叉轴方向上的对齐方式(多行)
+flex-start: 以交叉轴的起点对齐
+flex-end: 以交叉轴的终点对齐
+flex-center: 以交叉轴的中间对齐
+space-between: 交叉轴的2边对齐 中间平均
+space-around: 交叉轴上下2边都完成相等
+ -->
+<!-- <view class="box box-8 box-tall">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+  <view class="box-item">5</view>
+  <view class="box-item">6</view>
+  <view class="box-item">7</view>
+</view> -->
+<!-- stretch(默认值): 若高度为auto则占满整个容器高度 -->
+<!-- <view class="box box-9 box-tall">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+  <view class="box-item">5</view>
+  <view class="box-item">6</view>
+  <view class="box-item">7</view>
+</view> -->
+
+<!-- order: 数值越小，排在前面，默认为0 -->
+<!-- <view class="box box-10">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item order">4</view>
+</view> -->
+
+<!-- flex-grow: 有剩余空间时,自动填充(大于0)，默认0
+ -->
+<!-- <view class="box box-11">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item grow">3</view>
+</view> -->
+<!-- flex-shrink: 默认1, 空间不足时，自动收缩, 0则不收缩，负值无效
+ -->
+<!-- <view class="box box-12">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item shrink">3</view>
+</view> -->
+<!-- flex-basis: 定义在分配多余空间前，元素在主轴空间的大小
+  -->
+<!-- <view class="box box-13">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+</view> -->
+<!-- flex: 是上面三个属性的合并，默认值0,1,auto
+-->
+<!-- <view class="box box-14">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item grow">3</view>
+</view> -->
+
+<!-- align-self: 允许单个元素有不一样的对齐方式 -->
+<view class="box box-15">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item end">3</view>
+</view>

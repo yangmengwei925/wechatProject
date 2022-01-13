@@ -1,0 +1,5 @@
+<view class="edit">
+  <view class="edit-editor"></view>
+  <view class="edit-bar"></view>
+  <button class="edit-btn-save">保存</button>
+</view>
